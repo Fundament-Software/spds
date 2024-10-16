@@ -1,0 +1,24 @@
+[package]
+name = "spds"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.77.0"
+license = "Apache-2.0"
+homepage = "https://github.com/Fundament-Software/spds"
+repository = "https://github.com/Fundament-Software/spds/"
+readme = "README.md"
+authors = ["Erik McClure  "]
+description = """
+Specialized persistent data structure implementations, for when the im crate is not sufficient.
+"""
+
+[dependencies]
+bitfield-struct = "0.9.2"
+eyre = "0.6.12"
+memmap2 = "0.9.5"
+num = "0.4.3"
+thiserror = "1.0.64"
+
+[dev-dependencies]
+rand = "0.8.5"
+tempfile = "3.13.0"
